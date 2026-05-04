@@ -1,0 +1,8 @@
+python -m venv venv
+
+.\venv\Scripts\Activate.ps1   --> meka run krnn bari unoth
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned --> meka ghnna
+
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
