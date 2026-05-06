@@ -16,7 +16,7 @@ class ProjectCreate(ProjectBase):
 class Project(ProjectBase):
     id: int
 
-    class Config:
+    class ConfigDict:
         from_attributes = True
 
 
@@ -29,5 +29,5 @@ class UserOut(BaseModel):
     id: int
     username: str
 
-    class Config:
+    class ConfigDict:
         from_attributes = True
