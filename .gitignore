@@ -8,5 +8,7 @@ backend/__pycache__/
 # Environment variables
 backend/.env
 
+backend/test.db
+
 # VS Code settings
 .vscode/
